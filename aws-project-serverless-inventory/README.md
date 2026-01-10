@@ -46,4 +46,4 @@ Visualização dos dados carregados automaticamente após o upload do CSV.
 E-mail recebido automaticamente quando um item sem estoque foi detectado.
 ![Alerta de Email](AWS_SNS.png)
 ---
-*Projeto desenvolvido durante o programa AWS re/Start - 2026.*
+*Projeto desenvolvido durante o programa AWS re/Start Graduate Training - V3 - 2026.*
