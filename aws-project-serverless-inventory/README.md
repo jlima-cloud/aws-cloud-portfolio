@@ -18,7 +18,7 @@ A solução utiliza uma abordagem **Event-Driven**, onde cada serviço reage a u
 ![Arquitetura do Sistema](architecture.png)
 
 ## 🛠 Tecnologias Utilizadas
-* **AWS Lambda (Python 3.7):** Lógica de negócio e processamento de dados.
+* **AWS Lambda (Python 3.10):** Lógica de negócio e processamento de dados.
 * **Amazon S3:** Armazenamento de objetos e gatilho de eventos.
 * **Amazon DynamoDB:** Banco de dados NoSQL para alta performance e baixa latência.
 * **Amazon SNS:** Sistema de notificação (Pub/Sub) para alertas via e-mail/SMS.
