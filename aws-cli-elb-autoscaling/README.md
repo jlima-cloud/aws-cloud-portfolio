@@ -18,7 +18,7 @@ Teste de acesso via navegador mostrando o balanceamento de carga entre as instâ
 ### 2. Teste de Resiliência (Auto Scaling)
 Simulação de falha (terminate) e o Auto Scaling subindo uma nova máquina automaticamente para repor.
 
-![Prova do Terminal](print2.png)
+![Prova do Terminal](2print22.png)
 
 ---
 *Lab de estudos sobre AWS CLI e Infraestrutura Ágil.*
