@@ -25,7 +25,7 @@ A imagem abaixo ilustra o fluxo de dados planejado. O usuário acessa o ALB na c
 ### ⚙️ A Implementação Real (VPC Resource Map)
 Após a configuração, a própria AWS gera um mapa dos recursos criados. Este mapa confirma que as Tabelas de Roteamento (Route Tables) foram configuradas corretamente para isolar as subnets privadas.
 
-![Mapa de Recursos da VPC](vpc_resource_map.png)
+![Mapa de Recursos da VPC](VPC-MAP-AWS.png)
 *Figura 2: Visualização do AWS Console confirmando a associação correta entre Subnets e Route Tables.*
 
 #### Detalhamento dos Componentes:
@@ -61,13 +61,13 @@ Para considerar o projeto um sucesso, dois critérios críticos precisavam ser a
 #### 1. Validação do Backend (Health Checks)
 O ALB precisa confirmar que as instâncias privadas estão operacionais antes de enviar tráfego. A imagem abaixo comprova que o Target Group conseguiu se comunicar com os servidores na porta 80 e os marcou como **Healthy** (Saudáveis).
 
-![Status do Target Group](target_group_healthy.png)
+![Status do Target Group](TG-AWS.png)
 *Figura 3: Console da AWS mostrando que as duas instâncias privadas passaram nos testes de integridade.*
 
 #### 2. Validação do Frontend (Acesso à Aplicação)
 O teste final consistiu em acessar o DNS público do Load Balancer através de um navegador. O carregamento da página "Sample Content" prova que o fluxo completo (Internet -> ALB -> Instância Privada) está funcional.
 
-![Página Web Funcionando](app_sample_content.png)
+![Página Web Funcionando](AWS-ALB-1.png)
 *Figura 4: Resultado final acessado via browser, comprovando a funcionalidade da arquitetura.*
 
 ---
