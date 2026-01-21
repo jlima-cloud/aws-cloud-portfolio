@@ -19,7 +19,7 @@ A solução foi construída seguindo os pilares do **AWS Well-Architected Framew
 ### 🧠 O Conceito (Diagrama Lógico)
 A imagem abaixo ilustra o fluxo de dados planejado. O usuário acessa o ALB na camada pública, que então distribui a carga para as instâncias protegidas na camada privada.
 
-![Diagrama da Arquitetura](arquitetura_diagrama.png)
+![Diagrama da Arquitetura](arquitetura.png)
 *Figura 1: Diagrama da topologia de rede implementada, mostrando a separação entre subnets públicas e privadas.*
 
 ### ⚙️ A Implementação Real (VPC Resource Map)
