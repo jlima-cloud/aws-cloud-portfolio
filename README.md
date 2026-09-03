@@ -41,6 +41,16 @@ Projeto utilizando serviços gerenciados e arquitetura serverless para trabalhar
 
 ➡️ [`aws-project-serverless-inventory`](./aws-project-serverless-inventory)
 
+## 🧪 Laboratórios recentes
+
+### Lab 02 — Auditoria de recursos AWS com Systems Manager e AWS Config
+
+Laboratório de **Cloud Operations** focado em gerenciamento de instâncias EC2, inventário, acesso seguro com Session Manager e auditoria de conformidade com AWS Config.
+
+**Principais conceitos:** AWS Systems Manager, Fleet Manager, Session Manager, AWS Config, EC2, inventário e conformidade.
+
+➡️ [`Lab02-Cloud-Audit-Systems-Manager-Config`](./Labs/Lab02-Cloud-Audit-Systems-Manager-Config)
+
 ## 🛠️ Tecnologias e serviços
 
 | Área | Tecnologias |
@@ -88,4 +98,4 @@ Este portfólio está em evolução. Novos projetos serão adicionados com foco 
 
 > Portfólio de estudos e projetos práticos em Cloud Computing, com foco em AWS.
 
-*Atualizado em agosto de 2026.*
+*Atualizado em setembro de 2026.*
