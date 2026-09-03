@@ -39,7 +39,7 @@ O inventário foi configurado para coletar informações das instâncias EC2 sel
 
 No **Fleet Manager**, as duas instâncias do laboratório foram identificadas como nós gerenciados e apresentaram status **Online**.
 
-![AWS Systems Manager — Nós gerenciados](../../images/01-systems-manager-managed-nodes.png)
+![AWS Systems Manager — Nós gerenciados](01-systems-manager-managed-nodes.png)
 
 > **Evidência:** a captura demonstra que os dois nós EC2 estão disponíveis para gerenciamento pelo AWS Systems Manager.
 
