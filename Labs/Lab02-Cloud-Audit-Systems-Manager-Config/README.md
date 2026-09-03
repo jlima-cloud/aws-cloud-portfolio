@@ -72,7 +72,7 @@ Por fim, foi explorado o inventário coletado pelo Systems Manager para visualiz
 
 A captura abaixo mostra os dois nós gerenciados do laboratório com status **Online**.
 
-![Fleet Manager — Nós gerenciados](../../images/01-systems-manager-managed-nodes.png)
+![Fleet Manager — Nós gerenciados](02-systems-manager.png)
 
 ### Evidências adicionais
 
